@@ -1,0 +1,77 @@
+
+
+
+.error{
+  color: red;
+}
+
+
+
+
+
+
+
+
+/*.signup{
+  width:600px ;
+  height: 600px;
+  margin:20px auto ;
+  border: 0.1px solid black;
+  //padding est appliqué sur le div signup => create space around signup div (padding is used to create space around an element's content)
+  padding: 10px;
+}
+.signup input{
+  border: 0.1px solid #ccc;
+  height: 40px;
+  width: 95%;
+  margin:5px;
+  // eloignement de son contenu au contour
+  padding: 0 10px;
+  // taille d'ecriture
+  font-size: 1.4rem;
+}
+.form{
+  height: 100%;
+}*/
+
+
+
+
+
+
+/*.form-inline input{
+  border: 0.1px solid #ccc;
+  height: 40px;
+  width: 60%;
+  margin:5px;
+  // eloignement de son contenu au contour
+  padding: 0 10px;
+  // taille d'ecriture
+  font-size: 1.4rem;
+}
+
+.btn{
+  height: 40px;
+  background-color: #1d1d1d;
+  border: none;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  font-weight:bold ;
+  font-size: 1.4rem;
+}
+
+
+
+.signup ul{
+  list-style: none;
+  //padding sig element adheka 9adeh yeb3ed 3al jnebet(sig tous les bordes) w il fo9 w illota de parent
+  padding: 0;
+}
+
+.signup ul li{
+  border: 0.1px solid #1d1d1d;
+  justify-content: space-between;
+  padding: 5px;
+}*/
+

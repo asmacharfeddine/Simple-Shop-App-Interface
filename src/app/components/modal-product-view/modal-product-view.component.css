@@ -1,0 +1,67 @@
+.modal-product-view-container{
+  height:400px;
+  width: 650px;
+  background-color: white;
+  /*pour dire que je veux le fixer par rapport à la page*/
+  position: fixed;
+  /* le mettre totalement en haut */
+  /*888 pour dire que je veux l'avoir en dessus*/
+  z-index: 888;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.overlay{
+    /*pour dire que je veux le fixer par rapport à la page*/
+    position: fixed;
+    /* le mettre totalement en haut */
+    /*99<888 pour dire que je veux avoir le modal-product-view-container en dessus*/
+    z-index: 99;
+    /*100% sig 100 par rapport à la page sig sur toute la page*/
+    width: 100%;
+    height: 100%;
+    /* pour dire que je le veux un peux transparent*/
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    background-color: #1d1d1d;
+}
+
+.modal-product-view-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.modal-product-view-details{
+  text-align: center;
+}
+
+.modal-product-view-details-button{
+width: 95%;
+}
+
+.modal-product-view-details-button button{
+  height: 45px;
+  background-color:#3f51b5 ;
+  }
+
+  .modal-product-view-details-price h4{
+    font-size: 3rem;
+    color:#3f51b5 ;
+    font-weight: bold;
+  }
+
+  .modal-product-view-details-price del h4{
+    font-size: 2rem;
+
+  }
+
+/*sig lorsque la taille de l'ecran sera < 450 px le product item va prendre 95% de son container*/
+
+@media screen and (max-width: 660px){
+  .modal-product-view-container{
+    width:100%;
+
+  }
+}

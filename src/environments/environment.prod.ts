@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  serverUrl: "https://localhost/assets/api/products",
+  siteName: "Jstore",
+  siteEmail: "contact@jstore.fr"
 };

@@ -1,0 +1,9 @@
+.product-list{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  /*autoriser le retour à la ligne  dès qu'il n y a pas d'espace */
+  flex-wrap: wrap;
+}
+

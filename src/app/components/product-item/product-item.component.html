@@ -1,0 +1,29 @@
+
+<div class="product-item" >
+
+  <div class="product-image" [routerLink]="['product', product?.slug]">
+    <img
+    [src]="product ? product.imageUrl[0] : ''"
+    height="300"
+    width="300"
+    [alt]="product?.name">
+  </div>
+  <div class="product-details">
+    <div class="product-name">
+
+      <h2>{{ product?.name?.substring(0,40) }} {{product && product.name[41] ? "..." : null}}</h2>
+    </div>
+      <div class="product-price">
+        <!--soit tu existe et je te prend soit je prend la valeur 0 -->
+      <h3>€ {{ (product?.sold_price || 0)/100 }}</h3>
+      <del>
+        <h3> € {{ (product?.regular_price || 0)/100 }}</h3>
+      </del>
+    </div>
+<div class="product-action-button flex gap-5 jcc">
+  <button (click)="handleClickProduct(product)" class="btn">Quick view</button>
+</div>
+</div>
+</div>
+
+

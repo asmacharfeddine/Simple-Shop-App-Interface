@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "12748596",
+    "name": "Robe rouge pour femmes",
+    "description": "Super élégante robe pour femme",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_1/dress.webp",
+      "/assets/images/products/outfits_1/dress.webp",
+      "/assets/images/products/outfits_1/dress.webp",
+      "/assets/images/products/outfits_1/dress.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": "roooooobeee",
+    "stock": "54899",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  },
+  {
+    "_id": "8549632",
+    "name": "Robe rose fleurie",
+    "description": "Super élégante robe pour femme",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_2/outfit11.webp",
+      "/assets/images/products/outfits_2/outfit9.webp",
+      "/assets/images/products/outfits_2/outfit11.webp",
+      "/assets/images/products/outfits_2/outfit6.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": "rouba o5ra ahahahahah",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  },
+  {
+    "_id": "185452",
+    "name": "full outfit",
+    "description": "full outfit",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_3/outfit5.webp",
+      "/assets/images/products/outfits_3/outfit8.webp",
+      "/assets/images/products/outfits_3/outfit6.webp",
+      "/assets/images/products/outfits_3/outfit7.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": "full outfit",
+    "color": [
+      "black",
+      "blue"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  },
+  {
+    "_id": "3655452",
+    "name": "Robe blanche",
+    "description": "Robe portefeuille à volants fleuri",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_4/outfit9.webp",
+      "/assets/images/products/outfits_4/outfit5.webp",
+      "/assets/images/products/outfits_4/outfit9.webp",
+      "/assets/images/products/outfits_4/outfit5.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": "hello againn",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  },
+  {
+    "_id": "1546352",
+    "name": "Robe fine",
+    "description": "Robe portefeuille à volants fleuri",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_5/outfit12.webp",
+      "/assets/images/products/outfits_5/outfit12.webp",
+      "/assets/images/products/outfits_5/outfit6.webp",
+      "/assets/images/products/outfits_5/outfit8.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": " i am a slug for this outfit",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  },
+  {
+    "_id": "12748596",
+    "name": "Robe noire pour femmes",
+    "description": "Super élégante robe pour femme",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_6/outfit8.webp",
+      "/assets/images/products/outfits_6/outfit12.webp",
+      "/assets/images/products/outfits_6/outfit6.webp",
+      "/assets/images/products/outfits_6/outfit8.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": " another slug hiiii",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  },
+  {
+    "_id": "12748596",
+    "name": "Robe rouge",
+    "description": "Super élégante robe pour femme",
+    "category": [],
+    "imageUrl": [
+      "/assets/images/products/outfits_1/dress.webp",
+      "/assets/images/products/outfits_1/outfit3",
+      "/assets/images/products/outfits_1/outfit3.webp",
+      "/assets/images/products/outfits_1/outfit6.webp"
+    ],
+    "sold_price": 1299,
+    "regular_price": 8599,
+    "created_at": "2022-03-14T16:51:07.815Z",
+    "slug": "last slug by by",
+    "color": [
+      "red",
+      "blue",
+      "green"
+    ],
+    "size": [
+      "S",
+      "L",
+      "M",
+      "X"
+    ],
+    "additional_info": "hello part html in additional_info",
+    "vendor_info": "hello html part in vendor_info",
+    "reviews": "hello html part in reviews"
+  }
+]

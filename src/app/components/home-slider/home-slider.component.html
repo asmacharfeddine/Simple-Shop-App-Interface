@@ -1,0 +1,13 @@
+<div class="slider">
+  <div class="slide-item"
+  [ngStyle]="{'background-image':'url('+slider[currentIndex]?.imageUrl +')'}"
+  >
+  <img
+  (click)="handleChangeImage(-1)"
+  src="assets/images/icon/previous.png" alt="" class="previous iconPrevious">
+  <img
+  (click)="handleChangeImage(1)"
+  src="assets/images/icon/next-white.png" alt="" class="next iconNext">
+
+  </div>
+</div>

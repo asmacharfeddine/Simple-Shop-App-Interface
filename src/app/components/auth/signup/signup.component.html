@@ -1,0 +1,106 @@
+<!--<div class="signup signin">
+   <div class="form-inline firstname">
+    <input type="text"
+     name="firstname"
+     placeholder="your name..."
+     [(ngModel)]="firstname ">
+<button class="btn" (click)="handleSave()">Save</button>
+   </div>
+<div class="names">-->
+
+
+  <!--
+    Il est possible de récupérer d'autre informations telles que l'index de l'élément :
+    index : position de l'élément.
+    odd : indique si l'élément est à une position impaire.
+    even : indique si l'élément est à une position paire.
+    first : odd : indique si l'élément est à la première position.
+    last : indique si l'élément est à la dernière position.
+  -->
+
+
+  <!--<ul>
+    <li class="flex aic" *ngFor="let name of names; let index = index" >{{name}}
+      <div class="name-action flex gap-10">
+        <button class="btn" (click)="handleDelete(index)">Delete</button>
+      <button class="btn" (click)="handleUpdate(index)">Update</button>
+      </div>
+
+    </li>
+  </ul>
+</div>
+</div>-->
+
+
+
+
+<div class="signup">
+  <div class="form-container">
+<form action="" [formGroup]="signupForm">
+  <h2>Sing Up</h2>
+  <p class="tc">Already have an account ? if yes then click here to <a routerLink ="/signin">login</a>
+
+  </p>
+  <div class="form-line flex gap-10 wrap">
+<input class="flex-1"
+       type="text"
+       [formControl]="firstname"
+       name="firstname"
+       placeholder="your firstname please..."
+     >
+     <input class="flex-1"
+     type="text"
+     [formControl]="lastname"
+     name="lastname"
+     placeholder="your lastname please..."
+     >
+    </div>
+
+    <div class="errors-lines flex gap-10 wrap">
+    <div class="error flex-1" *ngIf="firstname.dirty && !firstname.valid">
+      <p *ngIf="firstname.hasError('required')">
+        Firstname is required
+      </p>
+     </div>
+     <div class="error flex-1" *ngIf="lastname.dirty && !lastname.valid">
+      <p *ngIf="lastname.hasError('required')">
+        lastname is required
+      </p>
+     </div>
+    </div>
+
+     <div class="form-line flex">
+     <input class="flex-1"
+     type="email"
+     name="email"
+     placeholder="your email please ..."
+     [(ngModel)]="user.email">
+     </div>
+
+<div class="form-line flex">
+  <input class="flex-1"
+   type="password"
+  name="password"
+  placeholder="your password please"
+  [(ngModel)]="user.password">
+</div>
+
+<div class="form-line flex">
+  <input class="flex-1"
+  type="password"
+  name="passwordConfirm"
+  placeholder="Confirm your password please ..."
+  [(ngModel)]="user.passwordConfirm">
+</div>
+<div class="button flex">
+  <button class="btn  flex-1" (click)="handleSubmit()">S'inscrire</button>
+
+</div>
+<!--<p>
+  {{user | json}}
+</p>-->
+</form>
+</div>
+</div>
+
+
